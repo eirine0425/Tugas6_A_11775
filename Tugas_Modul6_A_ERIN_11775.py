@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-model_path = 'model_mobilenet.keras'
+model_path = '/content/drive/MyDrive/Colab Notebooks/Tugas6_A_11775/model_mobilenet.keras'
 model = load_model(model_path)
 class_names = ['Matang', 'Mentah']
 
